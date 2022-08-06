@@ -35,6 +35,7 @@ public class FindDuplicateCharInString {
                 System.out.println(c + " found " + count + " times");
               }
         }
+        sc.close();
         
         
     }
