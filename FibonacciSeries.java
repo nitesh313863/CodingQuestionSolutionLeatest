@@ -22,6 +22,7 @@ public class FibonacciSeries {
                 b=c;
             }
         }
+        sc.close();
 
     }
     
