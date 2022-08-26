@@ -1,3 +1,10 @@
+[1, 2, 3, 5, 2, 0, 8, 8, 5]
+    
+Duplicate elements in given array: 
+2
+5
+8
+
 public class ArrayDuplicateElement {
     public static void main(String[] args) {
         int [] arr = new int [] {1, 2, 3, 5, 2, 0, 8, 8, 5};  
