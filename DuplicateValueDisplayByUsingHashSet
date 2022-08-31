@@ -1,0 +1,16 @@
+import java.util.HashSet;
+import java.util.Set;
+class DuplicateValueDisplay
+{
+    public static void main(String[] args) {
+        int arr[]={10,3,30,10,50,54,53,50};
+        Set<Integer> hs=new HashSet<Integer>();
+        for(Integer arra:arr)
+        {
+            if(hs.add(arra)==false)
+            {
+                System.out.print(arra+" ");
+            }
+        }
+    }
+}
